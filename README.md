@@ -10,8 +10,8 @@ Implementation of an ETL Pipeline using airflow to fetch data from an API. This 
 
 if you would like to run this app on your machine you need to configure three credentials  
 1. The globalstock database credential in the both files "gstock.py" and "stock_api.py"  under the "uri" like "mysql://user:password@ip:port/mydatabase"
-2. An api uri in the "stock_api.py" under the "api_uri" like "./apollon/api/aggregate/stock" 
-4. A tocken in the "stock_api.py" under "tocken"
+2. An api uri in the "stock_api.py" under the variable "api_uri" like "./*/*/*/*" 
+4. A tocken in the "stock_api.py" under the variable "tocken"
 
 **Tasks flow**
 
