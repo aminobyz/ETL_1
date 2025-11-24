@@ -32,5 +32,6 @@ if you would like to run this app on your machine you need to configure three cr
      2. save the changed stockes locally under the path "./include/data/customer/stocks/year/month/day/
         
 <p align="center">
-          "<img width="611" height="248" alt="Screenshot 2025-11-03 130405" src="https://github.com/user-attachments/assets/e9222ea0-1015-413a-a3e7-19202e0432ad" />
+          <img width="611" height="248" alt="graph" src="https://github.com/user-attachments/assets/de395bbb-3900-469f-8244-a321490faf48" />
 </p>
+ 
