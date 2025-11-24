@@ -1,0 +1,14 @@
+.git
+.env
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+include/data/
+include/articleIds/
+logs/
+tests/
+dags/elt_3.py
+include/tasks/dag_tasks_gstock.py
+
+

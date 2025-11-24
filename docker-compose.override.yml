@@ -1,0 +1,41 @@
+version: "3.7"
+services:
+  webserver:    
+    deploy:
+        resources:
+          limits:
+            memory: 8G
+    volumes:
+      - ./logs:/usr/local/airflow/logs
+    environment:
+      - TZ=Europe/Berlin
+
+  triggerer:
+    deploy:
+        resources:
+          limits:
+            memory: 8G
+    volumes:
+      - ./logs:/usr/local/airflow/logs
+    environment:
+      - TZ=Europe/Berlin
+  scheduler:
+    deploy:
+        resources:
+          limits:
+            memory: 8G
+    volumes:
+      - ./logs:/usr/local/airflow/logs
+    environment:
+      - TZ=Europe/Berlin
+
+  postgres:
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+    environment:
+      - TZ=Europe/Berlin
+
+
+  
